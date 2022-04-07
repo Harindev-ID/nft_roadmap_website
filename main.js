@@ -23,6 +23,7 @@ function prev(){
     slides[index].classList.add('active');
 }
 
+//new swiper 
 var swiper = new Swiper('.roadmap-slider', {
     spaceBetween: 20,
     centeredSlides: true,
